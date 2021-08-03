@@ -27,7 +27,7 @@ class Badge extends React.Component {
           <div>@{this.props.twitter}</div>
         </div>
 
-        <div className="badge_footer ">#Platziconf</div>
+        <div className="badge_footer">#Platziconf</div>
       </div>
     );
   }

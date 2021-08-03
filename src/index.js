@@ -8,16 +8,15 @@ import "./global.css";
 
 //componentes
 import Badge from "./components/Badge";
+import BadgeNew from './pages/BadgeNew'
 
 const container = document.getElementById("app");
 
 ReactDOM.render(
-  <Badge
-    firstName="Lilly"
-    lastName="Kaufman"
-    avatarUrl="https://www.gravatar.com/avatar/21594ed15d68ace3965642162f8d2e84?d=identicon"
-    jobTitle="Senior Dev"
-    twitter="Sparragus"
+  <BadgeNew
+    
   />,
   container
 );
+
+

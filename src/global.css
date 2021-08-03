@@ -5,7 +5,7 @@
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #5d5d5d;
+  
 }
 
 body {
@@ -17,6 +17,8 @@ h1 {
   font-family: 'Anton', sans-serif;
   color: #5d5d5d;
 }
+
+
 
 a.link-unstyled {
   color: inherit;
@@ -73,4 +75,11 @@ a.link-unstyled:hover {
 
 .btn.btn-danger:not(:disabled):not(.disabled):focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 64, 64, 0.5);
+}
+
+.font-weight-light {
+  font-weight: 400;
+}
+.font-weight-bold {
+  font-weight: 800;
 }

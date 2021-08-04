@@ -1,0 +1,24 @@
+.list-container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 10px 0;
+}
+.user-container {
+  display: flex;
+}
+
+.avatar{
+  width: 80px;
+  margin-right: 10px;
+}
+
+.twitter {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-weight: 900;
+}

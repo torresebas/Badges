@@ -2,7 +2,7 @@ import React from "react";
 
 import "./styles/BadgeList.css";
 
-import avatar from "../images/avatar.svg"
+// import avatar from "../images/avatar.svg"
 import twitter from "../images/twitter.svg"
 
 class BadgesList extends React.Component {
@@ -15,7 +15,7 @@ class BadgesList extends React.Component {
               <div className="user-container">
 
               <div className="">
-                <img className="avatar" src={avatar} alt="avatar" />
+                <img className="avatar" src={badge.avatarUrl} alt="avatar" />
               </div>
 
               <div className="information">

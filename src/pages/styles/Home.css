@@ -1,0 +1,14 @@
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.imagen{
+  width: 700px;
+}
+
+.title {
+  font-size: 85px;
+  text-align: center;
+}

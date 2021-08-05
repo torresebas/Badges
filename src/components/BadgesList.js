@@ -3,8 +3,8 @@ import React from "react";
 import "./styles/BadgeList.css";
 
 // import avatar from "../images/avatar.svg"
-import twitter from "../images/twitter.svg";
 import { Link } from "react-router-dom";
+import BadgesListItem from "./BadgesListItem";
 
 class BadgesList extends React.Component {
   render() {
@@ -23,21 +23,9 @@ class BadgesList extends React.Component {
         {this.props.badges.map((badge) => {
           return (
             <li key={badge.id} className="list-container">
-              <div className="user-container">
-                <div className="">
-                  <img className="avatar" src={badge.avatarUrl} alt="avatar" />
-                </div>
-
-                <div className="information">
-                  <p className="name">
-                    {badge.firstName} {badge.lastName}
-                  </p>
-                  <div className="twitter">
-                    <img src={twitter} alt="twitter" />
-                    <span>@{badge.twitter}</span>
-                  </div>
-                </div>
-              </div>
+              <Link className="text-reset text-decoration-none" to={`/badges/${badge.id}/edit`}>
+                <BadgesListItem badge={badge} />
+              </Link>
             </li>
           );
         })}

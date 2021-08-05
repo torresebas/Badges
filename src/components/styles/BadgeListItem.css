@@ -1,0 +1,19 @@
+
+.user-container {
+  display: flex;
+}
+
+.avatar{
+  width: 80px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.twitter {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-weight: 900;
+}

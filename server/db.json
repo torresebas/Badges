@@ -449,6 +449,24 @@
       "twitter": "Sebastian",
       "avatarUrl": "https://www.gravatar.com/avatar/14d60c763e5def62fc61996e03365754?d=identicon",
       "id": "h1DjYdp"
+    },
+    {
+      "firstName": "Maximiliano",
+      "lastName": "Torres",
+      "email": "Max@gmail.com",
+      "jobTitle": "Shepherd",
+      "twitter": "maxi1",
+      "avatarUrl": "https://www.gravatar.com/avatar/b66e8dfeefa2faa96393545e9d218c59?d=identicon",
+      "id": "xSSAqrC"
+    },
+    {
+      "firstName": "Seba",
+      "lastName": "Tor",
+      "email": "Sen@gmai.com",
+      "jobTitle": "Senior",
+      "twitter": "Sebattian",
+      "avatarUrl": "https://www.gravatar.com/avatar/e8934ea425577bc5e91691bcdf6d7c95?d=identicon",
+      "id": "upzrnLN"
     }
   ]
 }

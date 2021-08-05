@@ -440,6 +440,15 @@
       "jobTitle": "Lawyer",
       "twitter": "ckaufmanpr",
       "id": "npaYZKI"
+    },
+    {
+      "firstName": "Sebastian",
+      "lastName": "Torres",
+      "email": "seb@gmail.com",
+      "jobTitle": "FronTend",
+      "twitter": "Sebastian",
+      "avatarUrl": "https://www.gravatar.com/avatar/14d60c763e5def62fc61996e03365754?d=identicon",
+      "id": "h1DjYdp"
     }
   ]
 }
